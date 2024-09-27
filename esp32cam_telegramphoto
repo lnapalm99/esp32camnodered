@@ -18,8 +18,8 @@
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "TvF_6943";
-const char* password = "znid313396291";
+const char* ssid = "";
+const char* password = "";
 
 // Initialize Telegram BOT
 String BOTtoken = "6235178075:AAE90PvKjwC4vc7Dbav_gixI9AWsOOcXhG0";  // your Bot Token (Get from Botfather)
@@ -27,7 +27,7 @@ String BOTtoken = "6235178075:AAE90PvKjwC4vc7Dbav_gixI9AWsOOcXhG0";  // your Bot
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-String CHAT_ID = "582197221";
+String CHAT_ID = "";
 
 bool sendPhoto = false;
 
